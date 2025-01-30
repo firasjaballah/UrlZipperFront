@@ -17,7 +17,7 @@ const Contact = () => {
     setError(""); // Reset previous error
 
     try {
-      const response = await axios.post("http://localhost:8080/shorten", {
+      const response = await axios.post("https://urlzipper.onrender.com/shorten", {
         longUrl,
         customAlias,
         expiresIn,
